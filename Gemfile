@@ -11,8 +11,10 @@ gem 'database_cleaner'
 gem 'sqlite3'
 
 gem 'nokogiri'
-
+gem 'ffi'
 gem 'builder'
 
 gem 'httparty'
+gem 'watir-webdriver'
+gem 'page-object'
 
