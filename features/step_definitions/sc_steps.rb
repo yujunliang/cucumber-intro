@@ -2,7 +2,7 @@ require 'watir-webdriver'
 require_all 'lib'
 
 Given(/^I am on jQuery Calendar page using (.+)$/) do |browser|
-  @browser = Watir::Browser.new :firefox
+  @browser = BrowserFactory.start browser
   @page = JQueryDatePickerPage.new @browser
   @page.open
 end
