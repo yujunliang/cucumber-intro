@@ -10,7 +10,7 @@ gem 'factory_girl'
 gem 'database_cleaner'
 gem 'sqlite3'
 
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.4'
 gem 'ffi'
 gem 'builder'
 
