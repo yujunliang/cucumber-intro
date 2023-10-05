@@ -5,7 +5,7 @@ gem 'cucumber'
 gem 'rspec'
 gem 'require_all'
 
-gem 'activerecord'
+gem 'activerecord', '>= 4.2.2'
 gem 'factory_girl'
 gem 'database_cleaner'
 gem 'sqlite3'
