@@ -14,7 +14,7 @@ gem 'nokogiri'
 gem 'ffi'
 gem 'builder'
 
-gem 'httparty'
+gem 'httparty', '>= 0.24.0'
 gem 'watir-webdriver'
 gem 'page-object'
 
